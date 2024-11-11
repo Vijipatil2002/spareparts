@@ -1,0 +1,345 @@
+
+header{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+#list1{
+    margin-left: 10px;
+    padding: 20px 20px 20px 20px;
+    
+}
+#list2{
+    height: 40px;
+    width: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#list3>button{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(202, 7, 7);
+    color: white;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+nav{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://wallpapercave.com/wp/wp8204303.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size:100vw 100vh;
+    margin-top: -100px;
+    /* https://wallpapercave.com/wp/wp4670624.jpg */
+}
+#body1{
+    height: 230px;
+    width: 500px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 20px 20px 20px 20px;
+    line-height-step: 2px;
+}
+#body1>button
+{height: 35px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+
+}
+#body2{
+    height: 100px;
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: -20px;
+    margin-left: 20px;
+    list-style: none;
+}
+#body1 h1:first-of-type::first-letter
+{
+    font-size: 100px;
+    color: red;
+    
+}
+
+#body1 h1:first-of-type
+{
+    text-decoration-color: aquamarine;
+    font-size: 50px;
+    margin-top: -50px;
+}
+#body1 p:first-of-type
+{
+    text-decoration-color: aquamarine;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align-last: left;
+}
+main
+{
+    height: 700px;
+    width:100%;
+    background-color: black;
+    color: white;
+
+}
+#repair{
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    left: 500px;
+    padding: 10px 10px 10px 10px;
+}
+#repair>p{
+    text-align: center;
+}
+#repair>h1{
+    text-align: center;
+}
+#repair h1::first-letter{
+    color: red;
+    font-size: 40px;
+}
+#auto{
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+#auto1{
+    height: 200px;
+    width: 250px;
+    background-color:rgb(245, 239, 239);
+    color: black;
+    transform: all 2s linear;
+}
+#auto1:hover{
+    transform: scale(1.2);
+}
+#auto2{
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+    top: 930px;
+    color: black;
+   
+
+}
+
+
+#auto3{
+    height: 200px;
+    width: 250px;
+    background-color:white;
+    transform: all 2s linear;
+}
+#auto3:hover{
+    transform: scale(1.2);
+}
+section{
+    height: 500px;
+    width: 100%;
+    
+    background-color: blue;
+}
+#products{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+   
+}
+#products1 h1:first-of-type::first-letter{
+    color: red;
+    font-size: 50px;
+}
+#products1{
+    height: 100px;
+    width: 700px;
+    position: absolute;
+    top:1200px;
+    left: 420px;
+    text-align: center;
+    color: white;
+}
+#products2{
+    height: 400px;
+    width: 1450px;
+    position:absolute;
+    top: 1350px;
+    left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;   
+     transition: all 1s linear;
+}
+
+#products3{
+    height: 300px;
+    width: 350px;
+    color: white;
+    transition: border 1s linear;
+}
+#products3 img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+#pro{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    top: 280px;
+    color: white;
+
+}
+#packegs{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#packegs h1:first-letter{
+    color: red;
+    font-size: 50px;
+
+}
+#packeg{
+    height: 200px;
+    width: 450px;
+    margin-left: 300px;
+    background-color: white;
+
+}
+
+#packeg1{
+    height: 200px;
+    width: 450px;
+    margin-left: 800px;
+    margin-top: -220px;
+    background-color: white;
+
+}
+#packeg2{
+    height: 200px;
+    width: 450px;
+    margin-left: 800px;
+    margin-top: 25px;
+    background-color: white;
+}
+#packeg3{
+    height: 200px;
+    width: 450px;
+    margin-left: 300px;
+    margin-top: -220px;
+    background-color: white;
+
+}
+#picks{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#pick{
+    height: 40px;
+    width: 80px;
+   margin-top: -190px;
+   margin-left: 340px;
+   font-size: 30px;
+}
+#team{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+#team::first-letter{
+    color: red;
+    font-size: 50px;
+}
+#teams{
+    height: 400px;
+    width: 900px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+#team1{
+    height: 250px;
+    width: 200px;
+    filter: grayscale(50%);
+    border-radius: 10px;
+    border: 8px solid white;
+
+}
+#teams2{
+    height: 100px;
+    width: 900px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -100px;
+    font-size: 20px;
+}
+#team3{
+    height: 30px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-top: 1px;
+    /* background-image: url(mesh-521.png); */
+}
+#logo{
+    height: 200px;
+    width: 250px;
+    color:white;
+}
+
